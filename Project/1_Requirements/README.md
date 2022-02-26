@@ -60,6 +60,15 @@ In world, urban water supply systems are public enterprises, usually part of a l
 * Risk of monitoring system theft
 * Risk of monitoring system damage
 
+## 5W's and 1H
+
+* What? - Secured Water Distribution System
+* Where? - Rural areas, urban areas, factories, etc.,
+* Who? - Users are pubic people, students, workers etc.,
+* Why? - For the conservation of water
+* When? - During the need of water
+* How> - Microcontroller controls the action of water flow by using relay through signal received from flow sensor
+
 ## REQUIREMENTS
 
 ### High Level Requirements
