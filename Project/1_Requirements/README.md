@@ -35,6 +35,31 @@ In world, urban water supply systems are public enterprises, usually part of a l
 * Schools
 * Factories
 
+## SWORT ANALYSIS 
+
+### Strength
+
+* Saves Water
+* Eco friendly usuage
+* Prevents leakage and stagnation of water
+* Equal and sufficient water distribution
+
+### Weakness
+
+* High cost 
+* Maintenance cost is high
+
+### Opportunities
+
+* Urban areas
+* Industries
+* Rural areas
+
+### Threats
+
+* Risk of monitoring system theft
+* Risk of monitoring system damage
+
 ## REQUIREMENTS
 
 ### High Level Requirements
