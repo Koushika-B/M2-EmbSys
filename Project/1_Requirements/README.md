@@ -35,4 +35,19 @@ In world, urban water supply systems are public enterprises, usually part of a l
 * Schools
 * Factories
 
-## 
+## REQUIREMENTS
+
+### High Level Requirements
+
+* **HLR01** - Prevents leakage of water
+* **HLR02** - Equal water distribution
+* **HLR03** - Prevention of water theft
+* **HLR04** - Sufficient quantity of water distribution
+
+### Low Level Requirements
+
+* **LLR01** - User shall use flow sensor to sense the flow rate of water
+* **LLR02** - User shall use buzzer to indicate the excess ususge of water
+* **LLR03** - User shall use LCD to display the limit and usuage of water
+* **LLR04** - User shall use relay for automatic on and off the pipes
+* **LLR05** - User shall use microcontroller to control the entire process
