@@ -2,7 +2,7 @@
 
 ## 2.1 BLOCK DIAGRAM
 
-![BD](https://user-images.githubusercontent.com/98836479/157213087-18d0aa14-60bf-4d12-91fa-0a1e2c3a0e92.PNG)
+![Block Diagram](https://user-images.githubusercontent.com/98836479/157279152-27998c8e-860f-4933-81d9-27128a35c5ae.PNG)
 
 ![hh](https://user-images.githubusercontent.com/98836479/157230589-5d0c8360-388d-4fc4-bb3b-727644410edc.PNG)
 
