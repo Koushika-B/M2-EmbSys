@@ -28,12 +28,7 @@ It will make personnel’s life secured and will reduce the loss of assets.
 
 ## 1.4 5W's and 1H
 
-* What? - Secured Water Distribution System
-* Where? - Rural areas, urban areas, factories, etc.,
-* Who? - Users are pubic people, students, workers etc.,
-* Why? - For the conservation of water
-* When? - During the need of water
-* How> - Microcontroller controls the action of water flow by using relay through signal received from flow sensor
+![5 w 1h](https://user-images.githubusercontent.com/98836479/157187234-d9c7156e-2c0e-4cd8-8e73-3da7ca945285.PNG)
 
 ## REQUIREMENTS
 
