@@ -1,66 +1,32 @@
-# SECURE WATER DISTRIBUTION SYSTEM
+# 1 ABOUT S.A.F.G.D.S
 
-## INTRODUCTION
+## 1.1 DESCRIPTION
 
-Secure Water Management System is one of the most important barriers that saves and protect drinking water from theft. With the continuous economic growth, the water demand of enterprises is also increasing. The monitoring of water resource for these enterprises can prevent the occurrence of stealing water and leaking water effectively. Water supply networks form the link between water supply unit and water consumers. These large-scale networks are vital for the survival of life, for maintaining a healthy level of economic development and for the continuous operation of factories and hospitals. In order to implement the proposed water supply system, each consumer end should be provided with an arduino based water flow monitoring system to record the flow rate using a flow sensor.
+* Safety automation using fire and gas detection system is a project used to detect the liquid petroleum gas (LPG) leakage to avoid the fire accidents in home and in the industry and increase the safety feature with more accuracy and with more efficiency as we know that security is an important issue. This system detects the leakage of an LPG using gas sensor and also detects the flames or fire using fire sensor. The gas sensor and fire sensor simultaneously collect data from the environment and then transfer it to the Arduino UNO board in the form of analog and digital inputs. The Arduino board then check the inputs and act according to it.
 
-## RESEARCH
+## 1.2 RESEARCH
 
-In world, urban water supply systems are public enterprises, usually part of a local government and the recent increased interest in privatizing public enterprises has not led to reforms of water systems. Nevertheless, in about 50 cities in the developing world, the water system either has been privatized or franchised to a non-governmental entity for its operation and maintenance. In this research work, it is proposed to develop an embedded based remote water monitoring and theft prevention system by recording the flow rates at the consumer/user end.
+### 1.2.1 State of art 
 
-## FEATURES
+* The main aim of this project is to ensure safety condition for that a system has been developed which is reliable in detecting fire and gas leakage and can even detect the specific room or floor in which the fault is present. Moreover, the system can also show an alert message regarding the information of fire detection or gas leakage to the screen. The gas sensor and fire sensor are connected with a microcontroller that will control the total system. In this sense, this device will be helpful for the mankind.
+It will make personnel’s life secured and will reduce the loss of assets.
 
-* Saves water
-* Equal water distribution
-* Protects theft of water
+### 1.2.2 Identifying Features
 
-## COST
-* High Cost - The implementation of this project requires high cost.
+* Intimation of fire using buzzer
+* Clearance of gas leakage using exhaust fan
+* Gas sensor is used to detect the leakage of gas
+* Detection of fire using fire sensor
 
-## ADVANTAGES
+### 1.2.3 COST
 
-* Distribution of sufficient quantity of water for all consumers
-* Reduces leakage and loss of water
-* Efficient usuage of water 
+* Medium Cost - The implementation of this project requires medium cost.
 
-## DISADVANTAGES
+## 1.3 SWORT ANALYSIS 
 
-* High cost required to implement this project in each consumer end
-* High maintenance and operational cost
+![swot](https://user-images.githubusercontent.com/98836479/157179249-2f584993-f2b6-44e2-8d15-4258735f87e1.PNG)
 
-## APPLICATIONS
-
-* Rural areas
-* Urban areas
-* Schools
-* Factories
-
-## SWORT ANALYSIS 
-
-### Strength
-
-* Saves Water
-* Eco friendly usuage
-* Prevents leakage and stagnation of water
-* Equal and sufficient water distribution
-
-### Weakness
-
-* High cost 
-* Maintenance cost is high
-
-### Opportunities
-
-* Urban areas
-* Industries
-* Rural areas
-
-### Threats
-
-* Risk of monitoring system theft
-* Risk of monitoring system damage
-
-## 5W's and 1H
+## 1.4 5W's and 1H
 
 * What? - Secured Water Distribution System
 * Where? - Rural areas, urban areas, factories, etc.,
