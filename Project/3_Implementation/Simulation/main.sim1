@@ -1,0 +1,71 @@
+<circuit type="simulide_1.0" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="Potentiometer" CircId="Potentiometer-1" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="280,-276" rotation="0" hflip="1" vflip="1" label="Potentiometer-1" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="650 Ω" />
+
+<item itemtype="Subcircuit" CircId="Uno-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-52,-408" rotation="0" hflip="1" vflip="1" label="Uno-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps Frequency="16 MHz" Program="industrial.ino.hex" Auto_Load="false" />
+</item>
+
+<item itemtype="RelaySPST" CircId="RelaySPST-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-296,-468" rotation="90" hflip="1" vflip="1" label="RelaySPST-38" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1 _Poles" Rcoil="100 Ω" Inductance="0.1 H" IOn="0.02 A" IOff="0.01 A" />
+
+<item itemtype="BJT" CircId="BJT-92" mainComp="false" Show_id="false" Show_Val="false" Pos="-320,-424" rotation="0" hflip="1" vflip="1" label="BJT-92" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" />
+
+<item itemtype="Ground" CircId="Ground-103" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-360" rotation="0" hflip="1" vflip="1" label="Ground-103" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-108" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,-244" rotation="0" hflip="1" vflip="1" label="Ground-108" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="DcMotor" CircId="DcMotor-119" mainComp="false" Show_id="true" Show_Val="false" Pos="-152,-408" rotation="90" hflip="1" vflip="1" label="DcMotor-119" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="30 RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Battery" CircId="Battery-131" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-344" rotation="0" hflip="1" vflip="1" label="Battery-131" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="AudioOut" CircId="AudioOut-145" mainComp="false" ShowProp="Impedance" Show_id="false" Show_Val="true" Pos="-196,-192" rotation="90" hflip="1" vflip="1" label="AudioOut-145" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="inf Ω" />
+
+<item itemtype="Switch" CircId="Switch-152" mainComp="false" Show_id="false" Show_Val="false" Pos="216,-204" rotation="0" hflip="1" vflip="1" label="Switch-152" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="TextComponent" CircId="TextComponent-171" mainComp="false" Show_id="false" Show_Val="false" Pos="316,-244" rotation="0" hflip="1" vflip="1" label="TextComponent-171" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="false" Text="GAS SENSOR" />
+
+<item itemtype="TextComponent" CircId="TextComponent-172" mainComp="false" Show_id="false" Show_Val="false" Pos="204,-176" rotation="0" hflip="1" vflip="1" label="TextComponent-172" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="true" Text="FIRE SENSOR" />
+
+<item itemtype="TextComponent" CircId="TextComponent-206" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-168" rotation="0" hflip="1" vflip="1" label="TextComponent-206" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="true" Text="BUZZER" />
+
+<item itemtype="TextComponent" CircId="TextComponent-207" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,-464" rotation="0" hflip="1" vflip="1" label="TextComponent-206" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="true" Text="EXHAUST FAN" />
+
+<item itemtype="Node" CircId="Node-167" mainComp="false" Pos="136,-312" />
+
+<item itemtype="Node" CircId="Node-178" mainComp="false" Pos="-72,-272" />
+
+<item itemtype="Connector" startpinid="Uno-2-5V0" endpinid="Node-167-0" enodeid="Circ_eNode-208" pointList="100,-312,136,-312" />
+
+<item itemtype="Connector" startpinid="Uno-2-GND2" endpinid="Node-178-0" enodeid="enode" pointList="-44,-272,-72,-272" />
+
+<item itemtype="Connector" startpinid="RelaySPST-38-rPin" endpinid="BJT-92-collector" enodeid="Circ_eNode-210" pointList="-296,-452,-312,-452,-312,-440" />
+
+<item itemtype="Connector" startpinid="Uno-2-2" endpinid="Switch-152-pinP0" enodeid="Circ_eNode-211" pointList="-44,-376,-108,-376,-108,-152,172,-152,172,-204,200,-204" />
+
+<item itemtype="Connector" startpinid="Node-167-2" endpinid="Potentiometer-1-PinA" enodeid="Circ_eNode-208" pointList="136,-312,264,-312,264,-276" />
+
+<item itemtype="Connector" startpinid="Node-167-1" endpinid="Switch-152-switch0pinN" enodeid="Circ_eNode-208" pointList="136,-312,136,-248,248,-248,248,-204,232,-204" />
+
+<item itemtype="Connector" startpinid="RelaySPST-38-pinP2" endpinid="DcMotor-119-lPin" enodeid="Circ_eNode-212" pointList="-280,-484,-280,-516,-152,-516,-152,-448" />
+
+<item itemtype="Connector" startpinid="Node-178-2" endpinid="Ground-108-Gnd" enodeid="enode" pointList="-72,-272,-72,-260" />
+
+<item itemtype="Connector" startpinid="Battery-131-rPin" endpinid="DcMotor-119-rPin" enodeid="Circ_eNode-213" pointList="-212,-344,-152,-344,-152,-368" />
+
+<item itemtype="Connector" startpinid="Uno-2-9" endpinid="BJT-92-base" enodeid="Circ_eNode-214" pointList="-44,-312,-268,-312,-268,-272,-348,-272,-348,-424,-336,-424" />
+
+<item itemtype="Connector" startpinid="Potentiometer-1-PinM" endpinid="Uno-2-A0" enodeid="Circ_eNode-215" pointList="280,-260,340,-260,340,-352,100,-352" />
+
+<item itemtype="Connector" startpinid="Uno-2-GND1" endpinid="Potentiometer-1-PinB" enodeid="enode" pointList="100,-320,332,-320,332,-276,296,-276" />
+
+<item itemtype="Connector" startpinid="RelaySPST-38-lPin" endpinid="Uno-2-Vin" enodeid="Circ_eNode-216" pointList="-296,-484,-296,-532,-252,-532,-252,-528,-244,-528,-244,-532,-232,-532,-232,-532,136,-532,136,-336,100,-336" />
+
+<item itemtype="Connector" startpinid="BJT-92-emiter" endpinid="Ground-103-Gnd" enodeid="Circ_eNode-217" pointList="-312,-408,-312,-400,-280,-400,-280,-388,-324,-388,-324,-376" />
+
+<item itemtype="Connector" startpinid="RelaySPST-38-switch0pinN" endpinid="Battery-131-lPin" enodeid="Circ_eNode-218" pointList="-280,-452,-280,-432,-244,-432,-244,-344" />
+
+<item itemtype="Connector" startpinid="AudioOut-145-lPin" endpinid="Uno-2-12" enodeid="Circ_eNode-209" pointList="-188,-208,-188,-288,-44,-288" />
+
+<item itemtype="Connector" startpinid="AudioOut-145-rPin" endpinid="Node-178-1" enodeid="enode" pointList="-196,-208,-200,-208,-200,-224,-180,-224,-180,-272,-120,-272,-72,-272" />
+
+</circuit>
