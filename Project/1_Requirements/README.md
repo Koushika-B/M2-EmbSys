@@ -30,19 +30,16 @@ It will make personnel’s life secured and will reduce the loss of assets.
 
 ![5 w 1h](https://user-images.githubusercontent.com/98836479/157187234-d9c7156e-2c0e-4cd8-8e73-3da7ca945285.PNG)
 
-## REQUIREMENTS
+## 2 REQUIREMENTS
 
-### High Level Requirements
+### 2.1 High Level Requirements
 
-* **HLR01** - Prevents leakage of water
-* **HLR02** - Equal water distribution
-* **HLR03** - Prevention of water theft
-* **HLR04** - Sufficient quantity of water distribution
+![hlr m2](https://user-images.githubusercontent.com/98836479/157198543-d032f881-6c51-4305-b3b8-9913f08c9910.PNG)
 
-### Low Level Requirements
+### 2.2 Low Level Requirements
 
-* **LLR01** - User shall use flow sensor to sense the flow rate of water
-* **LLR02** - User shall use buzzer to indicate the excess ususge of water
-* **LLR03** - User shall use LCD to display the limit and usuage of water
-* **LLR04** - User shall use relay for automatic on and off the pipes
-* **LLR05** - User shall use microcontroller to control the entire process
+![llr1](https://user-images.githubusercontent.com/98836479/157198574-7f8ee5f3-c80f-42df-a950-ac564e4b242a.PNG)
+
+
+
+
