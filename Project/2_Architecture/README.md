@@ -6,7 +6,6 @@
 
 ![hh](https://user-images.githubusercontent.com/98836479/157230589-5d0c8360-388d-4fc4-bb3b-727644410edc.PNG)
 
-
 ## 2.2 COMPONENTS DESCRIPTION
 
 ### 2.2.1 SENSORS
@@ -65,6 +64,34 @@ Rectifier is used to convert 5 volt AC power supply into 5 volt DC power supply.
 
 Regulator is used to send a constant voltage to the system.
 
+## 2.3 BEHAVIORAL DIAGRAMS
 
+### 2.3.1 High Level Flow Chart Behavioral Diagram
+
+![llf](https://user-images.githubusercontent.com/98836479/157252515-d3626ee5-f08c-4be2-b313-b2670feba3eb.PNG)
+
+### 2.3.1 Low Level Flow Chart Behavioral Diagram
+
+![High Level Flow chart](https://user-images.githubusercontent.com/98836479/157252880-09d9304f-47a2-4bec-a94c-90c71b1768fb.PNG)
+
+## 2.4 STRUCTURAL DIAGRAMS
+
+### 2.4.1 High Level Use case Structural Diagram
+
+![hf](https://user-images.githubusercontent.com/98836479/157248846-cb003b68-210e-4e14-9b4f-688c2432fa76.PNG)
+
+## 2.4.2 Low Level Use case Structural Diagram
+
+![lf](https://user-images.githubusercontent.com/98836479/157248962-a4e711c2-532f-461b-b4f3-d60cb30447fd.PNG)
+
+## 2.5 BEST METHODS FOLLOWED
+
+* Exact mapping of code to avoid confusions
+
+* Mentioning of both high level and low level behavioral and structural diagrams for better understanding
+
+* Followed the exact symbols to make the understanding easier
+
+* Detailed explanation in behavioural and structural diagrams
 
 
