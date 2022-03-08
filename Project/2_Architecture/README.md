@@ -1,36 +1,70 @@
-# DESIGN
+# 2 ARCHITECTURE
 
-## BLOCK DIAGRAM
+## 2.1 BLOCK DIAGRAM
 
-![PIC 1](https://user-images.githubusercontent.com/98836479/155835248-a39c6c3c-2988-465d-a9f2-0a2f1f9e2b46.PNG)
+![BD](https://user-images.githubusercontent.com/98836479/157213087-18d0aa14-60bf-4d12-91fa-0a1e2c3a0e92.PNG)
 
-## COMPONENTS DESCRIPTION
+![hh](https://user-images.githubusercontent.com/98836479/157230589-5d0c8360-388d-4fc4-bb3b-727644410edc.PNG)
 
-### Flow Sensor
 
-Flow Sensor is used to sense the water flow rate in solenoid valve. This sensor operates under certain predefined value.
+## 2.2 COMPONENTS DESCRIPTION
 
-### Arduino UNO
+### 2.2.1 SENSORS
 
-Arduino UNO is used to control the water flow rate by switching on and off the relay through signal received from flow sensor.
+**2.2.1.1 ANALOG SENSOR**
 
-### Relay
+**Gas Sensor**
 
-Relay is used to open and close solenoid valve according to the command received from Arduino UNO.
+Gas Sensor is an analog sensor used to sense the gas leakage. It sends signal to the exhaust fan through Arduino UNO.
 
-### Soenoid Valve
+**2.2.1.2 DIGITAL SENSOR**
 
-Water flows out through solenoid valve.
+**Fire Sensor**
 
-### GSM 900
+Fire Sensor is a digital sensor used to sense the occurence of the fire and it also sends signal to the buzzer through Arduino UNO.
 
-GSM stands for Global System for Mobile Communication. It is used to send information such as messages to the municipality.
+### 2.2.2 MICROCONTROLLER
 
-### LCD
+**2.2.2.1 Arduino UNO**
 
-LCD is used to display water flow rate and limit of water.
+Arduino UNO is used to control the entire process. It sends signals received from gas and fire sensors to the exhaust fan and buzzer respectively.
 
-## FLOW CHART
+**2.2.2.2 Clock**
 
-![M2 Flow chart](https://user-images.githubusercontent.com/98836479/155840203-55c060f0-ff6a-4e09-9a6e-0a69f62c17c7.PNG)
+Clock is an internal component of Arduino UNO. It measures the time.
+
+**2.2.2.3 EEPROM**
+
+EEPROM is user modifiable read-only memory(ROM) that allows all users to erase and reprogram stored data repeatedly in an application.
+
+### 2.2.3 ACTUATORS
+
+**2.2.3.1 Buzzer**
+
+Buzzer is connected with Aruino UNO. It is used to intimate the occurence of the fire.
+
+**2.2.3.2 Relay**
+
+Relay is used to switch on and off the exhaust fan according to the command received from Arduino UNO.
+
+**2.2.3.3 Exhaust Fan**
+
+Exhaust fan is connected with the relay. It is used to send out the gas leakage by means of blowing.
+
+### 2.2.4 POWER SUPPLY
+
+**2.2.4.1 Transformer**
+
+Transformer is used in this project is a step down transformer. It is used to step down 230 AC Voltage into 5 AC voltage.
+
+**2.2.4.2 Rectifier**
+
+Rectifier is used to convert 5 volt AC power supply into 5 volt DC power supply.
+
+**2.2.4.3 Regulator**
+
+Regulator is used to send a constant voltage to the system.
+
+
+
 
