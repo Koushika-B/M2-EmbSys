@@ -1,6 +1,6 @@
 # 8 OUTPUT
 
-# 8.1 Output Images
+# 8.1 Output Images Added
 
 * Program Output
 * Hex file 
