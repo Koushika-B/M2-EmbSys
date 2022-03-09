@@ -3,7 +3,6 @@ PROJECT_NAME = SAFGDS
 
 #All Source code file
 SRC = gas.cpp\
-src/industrial.ino\
 
 #Path to the header file
 INC_HEADER = inc
