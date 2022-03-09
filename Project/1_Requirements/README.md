@@ -30,13 +30,13 @@ It will make personnel’s life secured and will reduce the loss of assets.
 
 ![5 w 1h](https://user-images.githubusercontent.com/98836479/157187234-d9c7156e-2c0e-4cd8-8e73-3da7ca945285.PNG)
 
-## 2 REQUIREMENTS
+## 1.5 REQUIREMENTS
 
-### 2.1 High Level Requirements
+### 1.5.1 High Level Requirements
 
 ![hlr m2](https://user-images.githubusercontent.com/98836479/157198543-d032f881-6c51-4305-b3b8-9913f08c9910.PNG)
 
-### 2.2 Low Level Requirements
+### 1.5.2 Low Level Requirements
 
 ![llr1](https://user-images.githubusercontent.com/98836479/157198574-7f8ee5f3-c80f-42df-a950-ac564e4b242a.PNG)
 
