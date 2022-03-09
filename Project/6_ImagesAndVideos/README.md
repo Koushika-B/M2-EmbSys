@@ -2,6 +2,7 @@
 
 ## 6.1 Images Added
 
+* S.A.F.G.D.S 
 * SWOT Analysis
 * 5 W's and 1 H
 * Block Diagram
