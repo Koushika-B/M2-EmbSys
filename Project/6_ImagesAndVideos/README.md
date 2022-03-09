@@ -1,4 +1,6 @@
-# IMAGES ADDED
+# 6 IMAGES AND VIDEOS
+
+## 6.1 Images Added
 
 * SWOT Analysis
 * 5 W's and 1 H
@@ -8,5 +10,9 @@
 * Low Level Flow Chart
 * High Level Use Case Diagram
 * Low Level Use Case Diagram
+
+## 6.2 Video Added
+
+* Output video
 
 
