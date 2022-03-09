@@ -28,15 +28,11 @@ Safety Automation using Fire and Gas Detection System is a project used to monit
 
 ### Code Quality Score
 
-![image](https://user-images.githubusercontent.com/98836479/157359425-9d6e7ffe-4ebd-40ae-9599-7aec991eb60e.png)
+![image](https://user-images.githubusercontent.com/98836479/157365613-520d45d5-3817-4d20-a804-0ae3a7048b97.png)
 
 ### Code Grade
 
-![image](https://user-images.githubusercontent.com/98836479/157359517-e3031123-5dbf-4b3a-bbc7-bf00b527655f.png)
-
-## Codacy
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6bba263c214d43ef94da6b6b8056ffbf)](https://www.codacy.com/gh/Koushika-B/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Koushika-B/M2-EmbSys&amp;utm_campaign=Badge_Grade)
+![image](https://user-images.githubusercontent.com/98836479/157365660-f2276a09-2ad8-494b-8cc7-f08317817a09.png)
 
 ## Folder Description
 
