@@ -1,5 +1,4 @@
 #include "gas.h"
-
 #define sensor A0      
 #define load_Res 10      
 #define air_factor 9.83    
